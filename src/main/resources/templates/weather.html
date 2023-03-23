@@ -1,0 +1,9 @@
+<html xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Current weather</title>
+</head>
+<body>
+<H1>Доброго дня, температура сьогодні
+    <span th:style="'color:' + ${color}"
+          th:text="${degrees == null} ? '<???>' : ${degrees}"/> градусів</H1>
+</body>
