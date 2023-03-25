@@ -1,0 +1,1 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=dv.kinash.HW5_SpringBoot_Web.MyAutoconf
